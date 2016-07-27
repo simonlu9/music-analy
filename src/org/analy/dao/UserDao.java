@@ -45,7 +45,7 @@ public class UserDao {
 		
 	}
 
-	public void addUsers(User user) {
+	public void addUsers(User user) { 
 		// users.add(_user);
 		// if (users.size() > 10) {
 		Connection conn = MysqlPool.pool.getConnection();
